@@ -8,9 +8,9 @@ class main
         n=sc.nextInt();
         for(i=0; i<n; i++)
         {
-            for(j=0; j<n; j++)
+            for(j=0; j<=i; j++)
             {
-                System.out.print(((char)(i+65))+" ");
+                System.out.print(j+1);
             }
             System.out.format("
 ");
