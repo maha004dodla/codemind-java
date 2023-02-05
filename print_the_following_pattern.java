@@ -8,16 +8,9 @@ class main
         n=sc.nextInt();
         for(i=0; i<n; i++)
         {
-            for(j=0; j<n; j++)
+            for(j=1; j<=n; j++)
             {
-                if(j==i)
-                {
-                    System.out.print("0");
-                }
-                else
-                {
-                    System.out.print("x");
-                }
+                System.out.print(n-j+1+" ");
             }
             System.out.format("
 ");
